@@ -1,7 +1,7 @@
-//Variable for max prime to find
-int n = 1000;
-
 void setup() {
+  //Variable for max prime to find
+  int n = 1000;
+  
   for (int i = 1; i<n; i++) {
     if (isPrime(i)){
       println(i);
